@@ -1,0 +1,6 @@
+﻿{
+  "/test": {
+    "target": "http://localhost:80",
+    "secure": "false"
+  }
+}
