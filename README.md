@@ -17,8 +17,8 @@ proxy/dev.json
 proxy/test.json
 
 package.json script下相应设置
+
 "scripts": {
-    
     "start": "ng serve --proxy-config proxy/dev.json",
     "start:test": "ng serve --proxy-config proxy/test.json",
 }
