@@ -6,6 +6,7 @@
 不同的启动脚本代理到不同服务器
 
 npm start               //默认代理到proxy/dev.json
+
 npm run start:test  //代理到proxy/test.json
 
 同理可以设置代理到其他环境
@@ -18,5 +19,6 @@ proxy/test.json
 package.json script下相应设置
 "scripts": {
     "start": "ng serve --proxy-config proxy/dev.json",
+    
     "start:test": "ng serve --proxy-config proxy/test.json",
 }
